@@ -3,7 +3,7 @@ package FizzBuzz;
 public class FizzBuzz {
     public static void main(String[] args) {
         int n = 347693485;
-        for(int i= 0; i <= n; i++){
+        for(int i= 1; i <= 9; i++){
             int a = n%10;
             n = n/10;
             if(a % 2 == 0 && a % 3 == 0){
